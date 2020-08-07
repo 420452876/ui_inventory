@@ -1,0 +1,15 @@
+{
+  "add_stock" : {
+    "supplier_name":"赵云",
+    "model":"oppo",
+    "price":200,
+    "number":20,
+    "msg":"入库成功"
+  },
+  "out_stock" :{
+    "shippers":"狗蛋",
+    "out_number":1,
+    "out_price":3000,
+    "msg":"出库成功"
+  }
+}

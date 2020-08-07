@@ -1,0 +1,11 @@
+{
+  "add_customer":{
+      "shippers":"关羽",
+      "model":"vivo",
+      "name":"吕布",
+      "phone":"13544442222",
+      "address":"深圳",
+      "remarks":"下午发货",
+      "msg":"客户信息录入成功"
+  }
+}
