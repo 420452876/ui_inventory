@@ -12,7 +12,7 @@ suite.addTest(unittest.makeSuite(TestCategory))
 suite.addTest(unittest.makeSuite(TestStock))
 suite.addTest(unittest.makeSuite(TestCustomer))
 # 生成测试报告
-filename = BASE_DIR + "/report/test_invent_{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+filename = BASE_DIR + "/report/test_invent.html"
 with open(filename, 'wb') as f :
     runner = HTMLTestRunner(stream=f, title='ui自动化',description="进销存管理系统1.1版本，测试报告生成")
     runner.run(suite)
